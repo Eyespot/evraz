@@ -1,0 +1,39 @@
+.evraz-tv {
+  padding-left: 115px;
+  height: 143px;
+}
+
+.evraz-tv__inner-wrapper {
+  position: relative;
+  float: right;
+  margin-right: 153px;
+  height: 100%;
+}
+
+.evraz-tv__link {
+  position: absolute;
+  right: 248px;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.evraz-tv__title {
+  margin-top: 59px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #818285;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.evraz-tv__info {
+  margin: 0;
+  padding: 0;
+  padding-top: 13px;
+  width: 230px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}

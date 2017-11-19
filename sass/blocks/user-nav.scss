@@ -1,0 +1,81 @@
+.user-nav {
+  // width: 72%;
+}
+
+.user-nav__list {
+  margin: 0;
+  margin-top: 41px;
+  margin-left: 110px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 910px;
+  list-style: none;
+}
+
+.user-nav__item {
+  margin-right: 40px;
+  min-height: 30px;
+  outline: 3px solid blue;
+}
+
+.user-nav__item--search {
+  position: relative;
+}
+
+.user-nav__list a,
+.user-nav__list input {
+  padding-left: 40px;
+  color: inherit;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.user-nav__item--buses a {
+  position: relative;
+  padding-left: 140px;
+}
+
+.user-nav__item--territories a {
+  padding-left: 48px;
+}
+
+.user-nav__item--search input {
+  padding-top: 0;
+  padding-left: 49px;
+  width: 106px;
+}
+
+.user-nav__search-button {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.user-nav__item--mail {
+  margin-right: 36px;
+  width: 35px;
+}
+
+.user-nav__item--mail a {
+  padding: 0;
+  font-size: 0;
+}
+
+.user-nav__ellipse {
+  position: absolute;
+  left: 1px;
+  top: -20px;
+  padding-left: 17px;
+  padding-top: 17px;
+  height: 60px;
+  width: 60px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #231f20;
+  background-color: #e3e3e4;
+  border-radius: 50px;
+}

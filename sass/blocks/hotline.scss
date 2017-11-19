@@ -1,0 +1,63 @@
+.hotline {
+  width: 285px;
+
+  h3 {
+    margin: 0;
+    margin-top: 53px;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 0.02em;
+    color: #ee2d24;
+  }
+
+  &__item {
+    margin-top: 16px;
+  }
+
+  &__item-phone {
+    display: block;
+    padding-left: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+  }
+
+  &__item-public {
+    display: block;
+    margin-top: 4px;
+    padding-left: 3px;
+    font-size: 12px;
+    font-weight: lighter;
+    letter-spacing: 0.02em;
+    color: #818285;
+  }
+
+  &__email {
+    margin-top: 9px;
+  }
+
+  &__email a {
+    padding-left: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #ee2d24;
+  }
+
+  &__button {
+    padding: 16px 20px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    font-size: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: inherit;
+  }
+
+  &__button-wrapper {
+    margin-top: 33px;
+  }
+}

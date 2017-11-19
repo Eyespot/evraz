@@ -1,0 +1,29 @@
+.page-header {
+  background-image: linear-gradient(to right, #f6f6f6 calc(50% + 200px), #ffffff calc(50% + 200px));
+}
+
+.page-header__logo {
+  margin-top: 41px;
+  width: 69px;
+  height: 20px;
+}
+
+.page-header__top {
+  margin: 0 auto;
+  display: flex;
+}
+
+.page-header__top > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-header__logged-user-profile {
+  margin: 0;
+  margin-top: 31px;
+  padding-top: 12px;
+  padding-left: 49px;
+  width: 142px;
+  height: 40px;
+  font-size: 14px;
+}

@@ -1,0 +1,47 @@
+.quote-slider {
+  position: relative;
+  margin-bottom: 140px;
+  min-height: 230px;
+  background-image: linear-gradient(to left, #f6f6f6 501px, #ffffff 501px);
+}
+
+.quote-slider__quote {
+  float: right;
+  margin: 0;
+  margin-right: 345px;
+  margin-top: 28px;
+  padding: 0;
+}
+
+.quote-slider__text {
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+  width: 470px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  line-height: 1.6;
+}
+
+.quote-slider__author {
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  font-style: normal;
+}
+
+.quote-slider__appointment {
+  margin: 0;
+  margin-top: 23px;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+}
+
+.quote-slider__buttons {
+  position: absolute;
+  bottom: 0;
+  right: -14%;
+}

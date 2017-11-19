@@ -1,0 +1,18 @@
+
+.news__top {
+  display: flex;
+  min-height: 513px;
+}
+
+.news__top-left {
+  width: calc(50% + 200px);
+  background-color: #f6f6f6;
+}
+
+.news__top-right {
+  width: calc(50% - 200px);
+}
+
+.news__bottom {
+  min-height: 347px;
+}

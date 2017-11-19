@@ -1,0 +1,22 @@
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e3e3e4;
+  min-height: 333px;
+}
+
+.page-footer__logo {
+  margin-top: 57px;
+  width: 285px;
+}
+
+.page-footer__logo p {
+  margin: 0;
+  margin-top: 28px;
+  padding-left: 2px;
+  font-size: 12px;
+  font-weight: lighter;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+  color: #7f8085;
+}
