@@ -19,6 +19,7 @@
 }
 
 .page-header__logged-user-profile {
+  position: relative;
   margin: 0;
   margin-top: 31px;
   padding-top: 12px;
@@ -26,4 +27,15 @@
   width: 142px;
   height: 40px;
   font-size: 14px;
+}
+
+.page-header__logged-user-profile::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/sprite.png");
+  background-position: 0px -50px;
 }

@@ -77,6 +77,7 @@
 }
 
 .articles__button {
+  position: relative;
   margin-right: 17px;
   padding-top: 16px;
   padding-bottom: 13px;
@@ -92,4 +93,26 @@
 
 .articles__button:last-child {
   margin-right: 0;
+}
+
+.articles__button--all::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  width: 26px;
+  height: 20px;
+  background-image: url("../img/sprite.png");
+  background-position: -30px -50px;
+}
+
+.articles__button--region::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 18px;
+  width: 14px;
+  height: 20px;
+  background-image: url("../img/sprite.png");
+  background-position: -104px -50px;
 }

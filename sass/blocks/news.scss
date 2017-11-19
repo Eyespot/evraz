@@ -1,5 +1,6 @@
 
 .news__top {
+  position: relative;
   display: flex;
   min-height: 513px;
 }
@@ -15,4 +16,33 @@
 
 .news__bottom {
   min-height: 347px;
+}
+
+.news__buttons {
+  position: absolute;
+  bottom: 140px;
+  left: calc(50% + 156px);
+}
+
+.news__buttons-item {
+  padding: 0;
+  height: 25px;
+  font-size: 0;
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+}
+
+.news__next {
+  width: 13px;
+  -moz-background-image: url("../img/icon-arrow-right.png");
+  background-image: url("../img/sprite.png");
+  background-position: -104px -25px;
+}
+
+.news__prev {
+  margin-right: 53px;
+  width: 14px;
+  background-image: url("../img/sprite.png");
+  background-position: -104px 0px;
 }

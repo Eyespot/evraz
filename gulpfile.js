@@ -18,6 +18,7 @@ var run = require("run-sequence");
 var del = require("del");
 var uglify = require("gulp-uglify");
 var pump = require("pump");
+var spritesmith = require('gulp.spritesmith');
 
 gulp.task("style", function() {
   gulp.src("sass/style.scss")
@@ -50,7 +51,7 @@ gulp.task("images", function() {
       imagemin.jpegtran({progessive: true}),
       imagemin.svgo()
     ]))
-    .pipe(gulp.dest("img"));
+    .pipe(gulp.dest("img/"));
 });
 
 gulp.task("webp", function() {
@@ -112,4 +113,12 @@ gulp.task("minifyJS", function (cb) {
     ],
     cb
   );
+});
+
+gulp.task('sprite-png', function () {
+  var spriteData = gulp.src('img/icons/icon-*.png').pipe(spritesmith({
+    imgName: 'sprite.png',
+    cssName: 'sprite.css'
+  }));
+  return spriteData.pipe(gulp.dest('img/icons/'));
 });

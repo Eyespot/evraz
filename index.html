@@ -9,7 +9,6 @@
       HTML {
         background-repeat: no-repeat;
         background-position:  50% 0;
-        /* Mobile layout by default */
         background-image: url( "preview/preview_1280.jpg" );
       }
     </style>
@@ -30,8 +29,8 @@
             <li class="user-nav__item user-nav__item--floors"><a href="#">Этажи</a></li>
             <li class="user-nav__item user-nav__item--territories"><a href="#">Территории</a></li>
             <li class="user-nav__item user-nav__item--search">
+              <a href="#" class="user-nav__search-button">Начать</a>
               <input type="search" name="" placeholder="Поиск">
-              <button class="user-nav__search-button btn" type="button">Начать</button>
             </li>
             <li class="user-nav__item user-nav__item--mail"><a href="#">Почта</a></li>
           </ul>
@@ -60,7 +59,7 @@
               <h2 class="evraz-tv__title">Евраз тв</h2>
               <p class="evraz-tv__info">65-летие Рельсобалочного цеха ЕВРАЗ НТМК</p>
               <a href="#" class="evraz-tv__link">
-                <img src="img/video-placeholder.jpg">
+                <img src="img/video-placeholder.jpg" height="100" width="100" alt="Видео">
               </a>
             </div>
           </div>
@@ -70,10 +69,6 @@
               <p class="quote-slider__text">Мы все хотим, чтобы ЕВРАЗ был эффективной компанией с высоким уровнем безопасности труда, ориентированной на запросы клиентов, поставляющей продукцию высокого качества…</p>
               <p class="quote-slider__appointment">Старший Вице-президент,<br> Блок коммерции и развития бизнеса</p>
             </blockquote>
-            <div class="quote-slider__buttons">
-              <button class="quote-slider__prev btn" type="button">Предыдущий автор</button>
-              <button class="quote-slider__next btn" type="button">Следующий автор</button>
-            </div>
           </div>
         </div>
         <div class="news__top-right">
@@ -83,23 +78,27 @@
                 <span>Царенко Владимир</span>
                 <p>Главный специалист ЕвразХолдинг</p>
               </div>
-              <div class="timetable__event">
+              <div class="timetable__event timetable__event--importance">
                 <span class="timetable__date">12 декабря</span>
-                <p class="timetable__info timetable__info--importance">Встреча с представителями банка ВТБ24</p>
+                <a href="#"><p class="timetable__info timetable__info--importance">Встреча с представителями банка ВТБ24</p></a>
               </div>
-              <div class="timetable__event">
+              <div class="timetable__event timetable__event--notice">
                 <span class="timetable__date">13 января</span>
-                <p class="timetable__info">О проведении в 2017 году соревнований по горным лыжам и сноуборду имени Андрея Севенюка</p>
+                <a href="#"><p class="timetable__info">О проведении в 2017 году соревнований по горным лыжам и сноуборду имени Андрея Севенюка</p></a>
               </div>
               <div class="timetable__slider-navigation">
                 <button class="timetable__button btn" type="button"></button>
-                <button class="timetable__button news__timetable--active btn" type="button"></button>
+                <button class="timetable__button timetable__button--active btn" type="button"></button>
                 <button class="timetable__button btn" type="button"></button>
                 <button class="timetable__button btn" type="button"></button>
                 <button class="timetable__button btn" type="button"></button>
               </div>
             </div>
           </div>
+        </div>
+        <div class="news__buttons">
+          <button class="news__prev news__buttons-item" type="button">Предыдущий автор</button>
+          <button class="news__next news__buttons-item" type="button">Следующий автор</button>
         </div>
       </div>
       <div class="news__bottom">
