@@ -1,5 +1,4 @@
 .user-nav {
-
   &__list {
     margin: 0;
     margin-top: 41px;
@@ -16,8 +15,6 @@
     margin-right: 40px;
     min-height: 30px;
   }
-
-
 }
 
 .user-nav__list a,
@@ -55,7 +52,7 @@
   width: 16px;
   height: 20px;
   background-image: url("../img/sprite.png");
-  background-position: 0px -80px;
+  background-position: 0 -80px;
 }
 
 .user-nav__item--floors a::before {
