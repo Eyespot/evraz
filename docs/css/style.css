@@ -771,6 +771,10 @@ img {
   background-image: url("../img/sprite.png");
   background-position: -104px -50px; }
 
+.articles a {
+  color: inherit;
+  text-decoration: none; }
+
 .page-footer {
   display: -webkit-box;
   display: -ms-flexbox;
